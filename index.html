@@ -39,32 +39,42 @@
                     <i class="fa-solid fa-times" id="cancel"></i>
                 </label>
 
-                <input type="checkbox" id="check"/>
+                <input type="checkbox" id="dark-mode-toggle">
                 <label for="dark-mode-toggle" class="dark-mode-btn">
                     <i class="fas fa-moon"></i>
                 </label>
                 <div class="container-navbar">
                     <img class="imghome" src="./images/fxp.png" width="auto" height="40">
                         <div class="text-a">
-                            <h1 style="color: rgb(255, 255, 255);">FKZ<span style="color:gold;">PROJECT</span></h1>
+                            <a href="https://fkzproject.my.id" style="text-decoration: none;"><h1 style="color: rgb(255, 255, 255);">FKZ<span style="color:gold;">PROJECT</span></h1></a>
                         </div>
                         <ul class="ul-navbar">
                             <li class="li-navbar"><a href="#" class="a-navbar"><font color="gold">Home</font></a></li>
-                            <li class="li-navbar"><a href="#" class="a-navbar">About</a></li>
-                            <li class="li-navbar"><a href="#" class="a-navbar">Community</a></li>
-                            <li class="li-navbar"><a href="#" class="a-navbar">Project</a></li>
+                            <li class="li-navbar"><a href="./about/index.html" class="a-navbar">About</a></li>
+                            <li class="li-navbar"><a href="./community/index.html" class="a-navbar">Community</a></li>
+                            <li class="li-navbar"><a href="./shop/index.html" class="a-navbar">Shop</a></li>
+                            <li class="li-navbar"><a href="https://template.fkzproject.my.id" class="a-navbar">Template</a></li>
+                            <li class="li-navbar"><a href="https://project.fkzproject.my.id" class="a-navbar">Project</a></li>
+                            <li class="li-navbar">
+                                <label for="dark-mode-toggle" class="dark-mode-btn-desktop">
+                                    <i class="fas fa-moon"></i>
+                                </label>
+                            </li>
                         </ul>
                 </div>
                 <div class="slide">
                     <h2 class="title-slide">MENU</h2>
                         <ul>
                             <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-                            <li><a href="#"><i class="fa-solid fa-info"></i>About</a></li>
-                            <li><a href="#"><i class="fa-solid fa-users"></i>Community</a></li>
-                            <li><a href="#"><i class="fa-solid fa-folder"></i>Project</a></li>
+                            <li><a href="./about/index.html"><i class="fa-solid fa-info"></i>About</a></li>
+                            <li><a href="./community/index.html"><i class="fa-solid fa-users"></i>Community</a></li>
+                            <li><a href="./shop/index.html"><i class="fa-solid fa-cart-shopping"></i>Shop</a></li>
+                            <li><a href="https://template.fkzproject.my.id"><i class="fas fa-file-code"></i>Template</a></li>
+                            <li><a href="https://project.fkzproject.my.id"><i class="fas fa-folder-open"></i>Project</a></li>
                         </ul>
                 </div>
             </div>
+
             <div class="home-style">
                 <div class="home-content">
                     <div kezt-transition1><h1 class="h1-home"><font style="background-color: white;color:blueviolet;padding: 3px 5px;box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.484);">FKZ</font><font class="hover-home">Project</font></h1></div>
@@ -73,7 +83,6 @@
             </div>
 
             <div class="container-info">
-                <div class="animate from-top">
                 <div class="content-info">
                     <div kezt-transition1>
                     <h2>Welcome To <font style="font-weight:600">FKZProject</font> sites.</h2>
@@ -82,7 +91,6 @@
                     <div kezt-transition4>
                     <div class="but"><a href="./download/index.html"><button type="button" class="nav-button"><i class="fa-solid fa-download"></i>Get Download</button></a></p></div>
                     <a href="#"><button type="button" class="nav-button">Get Template</button></a></div>
-                </div>
                 </div>
             </div>
 
@@ -208,7 +216,7 @@
                         </div>
                     </div>
                         <div class="main-content2">
-                            <div kezt-transition2>
+                            <div kezt-transition2><br>
                             <h3>Free to download Template</h3></div>
                             <div kezt-transition3><p class="paragraph-info2">In addition to offering services for Blogger-based websites and providing free tools through the Fkz Project, we also provide Portfolio Templates for your website. These portfolio templates are specifically designed to help you improve your user interface (UI) design and give a professional look to your web pages. You can utilize our templates to create an attractive and functional visual experience. We also keep updating our collection, so more templates will be added in the future as per your needs..</p>
                         </div>
@@ -289,9 +297,11 @@
                     <div class="card-content">
                         <h3>Pages</h3>
                         <a href="#" class="p-hover"><p class="card-p">Home</p></a>
-                        <a href="./download/index.html" class="p-hover"><p class="card-p">Download</p></a>
                         <a href="./about/index.html" class="p-hover"><p class="card-p">About</p></a>
                         <a href="./community/index.html" class="p-hover"><p class="card-p">Community</p></a>
+                        <a href="./shop/index.html" class="p-hover"><p class="card-p">Shop</p></a>
+                        <a href="https://project.fkzproject.my.id" class="p-hover"><p class="card-p">Template</p></a>
+                        <a href="https://project.fkzproject.my.id" class="p-hover"><p class="card-p">Project</p></a>
                     </div>
     
                     </div>
@@ -300,6 +310,7 @@
                 </div>
             </footer>
             
+            <script src="./js/dark.js"></script>
             <script src="https://api.kezt.my.id/show-transition.js"></script>
         </body>
     </html>
